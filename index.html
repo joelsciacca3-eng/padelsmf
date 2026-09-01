@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+<link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Padel SMF — Prenota il campo</title>
+<link rel="icon" type="image/png" href="favicon-padel.png">
+<link rel="icon" type="image/png" href="./favicon-padel.png?v=2">
+<meta name="description" content="Prenota il campo da padel di San Mauro Forte. Regolamento, orari, contatti e mappa.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header class="nav" id="siteNav">
+  <div class="nav-inner">
+    <div class="brand">
+      <span class="dot"></span>
+      <span>PADEL<br><small>San Mauro Forte</small></span>
+    </div>
+    <nav class="links">
+      <a class="navlink" href="#campo">Il campo</a>
+      <a class="navlink" href="#regolamento">Regolamento</a>
+      <a class="navlink" href="#prenota">Prenota</a>
+      <a class="navlink" href="#contatti">Contatti</a>
+    </nav>
+    <a href="#prenota" class="btn btn-primary btn-sm">Prenota ora</a>
+  </div>
+</header>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="home">
+  <div class="wrap">
+    <div class="hero-grid">
+      <div>
+        <span class="eyebrow">Comune di San Mauro Forte · Basilicata</span>
+        <h1>Campo da<br><span class="accent">Padel</span> - SMF</h1>
+        <p class="lead">Il campo da padel di San Mauro Forte, aperto tutto l'anno, illuminato la sera. Prenota il tuo turno in pochi secondi o consulta il regolamento prima di scendere in campo.</p>
+        <div class="hero-ctas">
+          <a href="#regolamento" class="btn btn-ghost">Regolamento</a>
+          <a href="#prenota" class="btn btn-primary">Prenota ora</a>
+        </div>
+        <div class="hero-meta">
+          <div><span class="num">18–23</span><span class="lbl">Orario, tutti i giorni</span></div>
+          <div><span class="num">60'</span><span class="lbl">Durata turno</span></div>
+        </div>
+      </div>
+
+      <div class="court-stage">
+        <div class="court-card">
+          <svg viewBox="0 0 420 300" xmlns="http://www.w3.org/2000/svg">
+            <!-- outer walls -->
+            <rect class="court-lines" x="14" y="14" width="392" height="272" rx="10"></rect>
+            <!-- service line divide -->
+            <line class="court-lines b" x1="14" y1="150" x2="406" y2="150"></line>
+            <!-- service boxes -->
+            <line class="court-lines b" x1="210" y1="66" x2="210" y2="234"></line>
+            <line class="court-lines b" x1="14" y1="66" x2="406" y2="66"></line>
+            <line class="court-lines b" x1="14" y1="234" x2="406" y2="234"></line>
+            <!-- net -->
+            <line class="court-lines net" x1="14" y1="150" x2="406" y2="150" stroke-width="4"></line>
+            <!-- ball -->
+            <g class="ball">
+              <circle class="glow-dot" cx="70" cy="200" r="7" fill="#C9E265"></circle>
+            </g>
+          </svg>
+          <div class="court-tag">
+            <span class="live"><span class="pulse"></span> disponibile</span>
+            <span>40.488°N · 16.245°E</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ IL CAMPO / MEDIA ============ -->
+<section class="section-pad" id="campo">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div>
+        <span class="kicker">Il campo</span>
+        <h2>Costruito per giocare<br>bene, in ogni stagione.</h2>
+      </div>
+      <p>Fondo in erba sintetica drenante, pareti in vetro temperato e illuminazione LED per il gioco serale, anche d'inverno.</p>
+    </div>
+
+    <div class="campo-grid reveal">
+      <div class="media-tile tall">
+        <div class="fig">
+          <img
+            src="img2-campo.png"
+            alt="Campo da padel con pareti in vetro e illuminazione LED serale"
+          >
+        </div>
+        <div class="cap">
+          <h4>Vista campo</h4>
+          <span>Pareti in vetro · illuminazione LED serale</span>
+        </div>
+      </div>
+
+      <div class="media-tile">
+        <div class="fig">
+          <img
+            src="img-erba.jpg"
+            alt="Campo da padel con pareti in vetro e illuminazione LED serale"
+          >
+        </div>
+        <div class="cap">
+          <h4>Erba sintetica drenante</h4>
+          <span>Gioco garantito anche dopo la pioggia</span>
+        </div>
+      </div>
+
+      <div class="media-tile">
+        <div class="fig">
+          <img
+            src="img-racchetta.jpg"
+            alt="Campo da padel con pareti in vetro e illuminazione LED serale"
+          >
+        </div>
+        <div class="cap">
+          <h4>Palline e racchette messe a disposizione</h4>
+          <span>Disponibili in campo</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr class="rule">
+
+<!-- ============ REGOLAMENTO ============ -->
+<section class="section-pad" id="regolamento">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div>
+        <span class="kicker">Regolamento</span>
+        <h2>Le regole del campo,<br>in ordine di gioco.</h2>
+      </div>
+      <p>Da leggere prima della prenotazione: garantiscono un campo in ordine per tutti.</p>
+    </div>
+
+    <div class="reg-list reveal">
+      <div class="reg-item">
+        <div>
+          <h3>Prenotazione obbligatoria</h3>
+          <p>L'accesso al campo è consentito solo con prenotazione confermata. I turni durano 60 minuti e iniziano puntuali all'orario prenotato.</p>
+        </div>
+      </div>
+      <div class="reg-item">
+        <div>
+          <h3>Abbigliamento e calzature</h3>
+          <p>È obbligatorio l'uso di scarpe da padel o da tennis con suola liscia non marcante. Non è consentito l'accesso in campo con scarpe da calcio o running.</p>
+        </div>
+      </div>
+      <div class="reg-item">
+        <div>
+          <h3>Numero massimo di giocatori</h3>
+          <p>Massimo 4 persone in campo per turno. Eventuali accompagnatori possono attendere nell'area spogliatoi.</p>
+        </div>
+      </div>
+      <div class="reg-item">
+        <div>
+          <h3>Puntualità e cambio turno</h3>
+          <p>Si prega di lasciare il campo libero 5 minuti prima della scadenza del turno per consentire il cambio con i giocatori successivi.</p>
+        </div>
+      </div>
+      <div class="reg-item">
+        <div>
+          <h3>Cancellazioni</h3>
+          <p>La prenotazione può essere annullata quando si vuole.</p>
+        </div>
+      </div>
+      <div class="reg-item">
+        <div>
+          <h3>Rispetto della struttura</h3>
+          <p>È vietato fumare e consumare cibo all'interno del campo. Non è consentito l'ingresso di animali. Ogni danno alle attrezzature è a proprio carico e dovrà essere segnalato.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="reg-note reveal">
+      <span>ⓘ</span>
+      <p><strong>In caso di maltempo</strong> il turno viene automaticamente riprogrammato: verrai contattato al numero indicato in fase di prenotazione.</p>
+    </div>
+  </div>
+</section>
+
+<hr class="rule">
+
+<!-- ============ PRENOTAZIONE ============ -->
+<section class="section-pad" id="prenota">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div>
+        <span class="kicker">Prenotazione</span>
+        <h2>Scegli giorno,<br>orario e scendi in campo.</h2>
+      </div>
+    </div>
+
+  <div class="book-panel account-panel">
+    <div id="authSignedOut">
+      <span class="field-label">Accesso sicuro</span>
+    
+      <p>
+        Accedi con il tuo account Google per prenotare
+        e gestire le tue prenotazioni.
+      </p>
+    
+      <button
+        type="button"
+        class="btn btn-primary"
+        id="googleSignInBtn"
+      >
+        Accedi con Google
+      </button>
+    
+      <p id="authMessage" aria-live="polite"></p>
+    </div>
+
+    <div id="authSignedIn" hidden>
+      <p>
+        Accesso effettuato come
+        <strong id="accountEmail"></strong>
+      </p>
+
+      <button type="button" class="btn btn-ghost" id="signOutBtn">
+        Esci
+      </button>
+    </div>
+  </div>
+
+    <div class="book-panel reveal">
+      <form id="bookingForm">
+        <div class="book-cols">
+          <div>
+            <span class="field-label">Giorno</span>
+            <div class="day-row" id="dayRow"></div>
+
+            <div
+              class="booking-warning"
+              role="note"
+              aria-label="Limite sui giorni consecutivi"
+            >
+              <span class="booking-warning-icon" aria-hidden="true">⚠</span>
+              <p>
+                <strong>Attenzione:</strong>
+                non puoi prenotare più di 2 giorni consecutivi.
+              </p>
+            </div>
+          
+            <span class="field-label">Orario disponibile</span>
+            <div class="slot-grid" id="slotGrid" aria-live="polite"></div>
+          
+            <div class="slot-legend">
+              <span><i class="legend-dot free"></i>Libero</span>
+              <span><i class="legend-dot sel"></i>Selezionato</span>
+              <span><i class="legend-dot gone"></i>Occupato</span>
+            </div>
+          </div>
+        
+          <div>
+            <span class="field-label">I tuoi dati</span>
+          
+            <div class="form-stack">
+              <input
+                type="text"
+                placeholder="Nome e cognome"
+                id="fName"
+                autocomplete="name"
+                required
+              >
+            
+              <div class="form-row-2">
+                <input
+                  type="tel"
+                  placeholder="Telefono"
+                  id="fPhone"
+                  autocomplete="tel"
+                  required
+                >
+              
+                <input
+                  type="email"
+                  placeholder="Email"
+                  id="fEmail"
+                  autocomplete="email"
+                  required
+                >
+              </div>
+            
+              <select id="fPeople" required>
+                <option value="2">2 giocatori</option>
+                <option value="3">3 giocatori</option>
+                <option value="4" selected>4 giocatori</option>
+              </select>
+            
+              <span class="field-label documents-title">
+                Modulistica obbligatoria
+              </span>
+            
+              <div class="document-grid">
+                <article class="document-card">
+                  <h3>Partecipanti minorenni</h3>
+                  <p>Modulo di autorizzazione da compilare per ogni partecipante minorenne.</p>
+                
+                  <!-- Sostituisci URL_MODULO_MINORI con il tuo link -->
+                  <a
+                    class="btn btn-ghost document-link"
+                    href="https://go.fliplink.me/view/B409E8B3-0C4B-43A5-9CD8-5483DBDC7AC0"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Apri modulo minori
+                  </a>
+                </article>
+              
+                <article class="document-card">
+                  <h3>Partecipanti maggiorenni</h3>
+                  <p>Modulo di dichiarazione da compilare per i partecipanti maggiorenni.</p>
+                
+                  <!-- Sostituisci URL_MODULO_MAGGIORENNI con il tuo link -->
+                  <a
+                    class="btn btn-ghost document-link"
+                    href="https://go.fliplink.me/view/ABB66270-E2C5-4A39-921E-996363AB75CB"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Apri modulo maggiorenni
+                  </a>
+                </article>
+              </div>
+            
+              <label class="documents-check">
+                <input type="checkbox" id="fDocuments" required>
+                <span>
+                  Dichiaro di aver compilato la modulistica necessaria
+                  per tutti i partecipanti e di averla inviata al numero WhatsApp indicato nella sezione "Contatti".
+                </span>
+              </label>
+            
+              <div class="book-summary" id="bookSummary" aria-live="polite">
+                <div>
+                  <span>Data</span>
+                  <b id="summaryDay">—</b>
+                </div>
+              
+                <div>
+                  <span>Orario</span>
+                  <b id="summaryTime">—</b>
+                </div>
+              
+                <div>
+                  <span>Durata</span>
+                  <b>60 minuti</b>
+                </div>
+              
+                <div>
+                  <span>Giocatori</span>
+                  <b id="summaryPeople">4</b>
+                </div>
+              
+                <div>
+                  <span>Referente</span>
+                  <b id="summaryName">—</b>
+                </div>
+              
+                <div>
+                  <span>Moduli</span>
+                  <b id="summaryDocuments">Da confermare</b>
+                </div>
+              </div>
+            
+              <button
+                type="submit"
+                class="btn btn-primary"
+                id="bookBtn"
+                disabled
+                style="width:100%; margin-top:4px;"
+              >
+                Conferma prenotazione
+              </button>
+            
+              <div class="confirm-box" id="confirmBox" role="status"></div>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+
+        <div class="book-panel my-bookings-panel" id="myBookingsPanel" hidden>
+        <span class="field-label">Le mie prenotazioni</span>
+        <div id="myBookingsList" aria-live="polite"></div>
+        </div>
+        
+  </div>
+</section>
+
+<hr class="rule">
+
+<!-- ============ CONTATTI / MAPPA ============ -->
+<section class="section-pad" id="contatti">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div>
+        <span class="kicker">Contatti e luogo</span>
+        <h2>Dove trovarci,<br>a San Mauro Forte.</h2>
+      </div>
+      <p>Nel cuore della Basilicata, provincia di Matera.</p>
+    </div>
+
+    <div class="contact-grid reveal">
+      <div class="contact-card">
+        <div class="contact-item">
+          <div class="ic">📍</div>
+          <div>
+            <h4>Indirizzo</h4>
+            <p>Campo Padel San Mauro Forte<br>Via Papa Giovanni XXIII — 75010 San Mauro Forte (MT)</p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="ic">☎</div>
+          <div>
+            <h4>Telefono</h4>
+            <a href="tel:+39 389 950 8656">389 950 8656</a>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="ic">✉</div>
+          <div>
+            <h4>Email</h4>
+            <a href="mailto:info@padelsanmauroforte.it">info@padelsanmauroforte.it</a>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="ic">🕐</div>
+          <div>
+            <h4>Orari</h4>
+            <p>Tutti i giorni, 18:00 – 23:00</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="map-wrap">
+        <span class="map-badge">San Mauro Forte (MT)</span>
+          <iframe
+            src="https://www.google.com/maps?q=40.487636061680895,16.245657847372605&z=17&output=embed"
+            title="Mappa San Mauro Forte"
+            loading="lazy"
+            style="border:0"
+            allowfullscreen>
+          </iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="wrap">
+  <div class="fbrand">PADEL <span style="color:var(--lime)">San Mauro Forte</span></div>
+  <div class="fsocial">
+    <a href="#campo">Il campo</a>
+    <a href="#regolamento">Regolamento</a>
+    <a href="#prenota">Prenota</a>
+    <a href="#contatti">Contatti</a>
+  </div>
+  <p>Created By - <span style="color:var(--lime)">Joel Joan Sciacca</span></p>
+</footer>
+
+<script type="module" src="script.js"></script>
+
+</body>
+</html>
